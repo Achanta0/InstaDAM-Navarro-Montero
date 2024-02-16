@@ -1,0 +1,18 @@
+name: instadam
+environment:
+  sdk: '>=2.12.0 <3.2.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite: ^2.0.0 # para la base de datos local
+  path_provider: ^2.0.5 # para obtener el directorio de almacenamiento local
+  provider: ^6.1.1 # para el manejo del estado
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  assets:
+    - assets/insta.png  # Asegúrate de tener la ruta correcta a tu imagen
